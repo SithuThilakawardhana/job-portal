@@ -1,7 +1,7 @@
 const express = require("express");
 const { allUsers } = require("../controllers/userController");
 const { isAuthenticated } = require("../middleware/auth");
-const { isAdmin } = require("../middleware/auth")
+const { isAdmin } = require("../middleware/auth");
 const { singleUser } = require("../controllers/userController");
 const { editUser } = require("../controllers/userController");
 const { deleteUser } = require("../controllers/userController");
