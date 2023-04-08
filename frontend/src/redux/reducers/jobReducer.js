@@ -1,6 +1,6 @@
 import { JOB_LOAD_FAIL, JOB_LOAD_REQUEST, JOB_LOAD_RESET, JOB_LOAD_SUCCESS } from "../constants/jobconstant"
 
-export const loadJobRecucer = (state={jobs:[]}, action) => {
+export const loadJobReducer = (state={jobs:[]}, action) => {
     switch (action.type) {
         case JOB_LOAD_REQUEST:
             return {loading:true}
